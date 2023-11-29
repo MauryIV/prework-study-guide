@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -33,22 +34,22 @@
           <li>3 different ways to style in CSS: inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
           <li>Inline CSS: for syling a single element directly in the HTML file. Example: adding style="color:red;">Heading that makes the heading red.</li>
           <li>Internal style sheet: contains rules for the webpage in the head section of the HTML file. Example: (in brackets) style, tab in, h1 { color :red; }</li>
-          <li>External style sheet: most common and easier to change, implants a link in file. Example brac head tab brac link rel="stylesheet" href="./assets/style.css" / brac</li>
+          <li>External style sheet: most common and easier to change, implants a link in file. Example brac link rel="stylesheet" href="./assets/style.css" / brac (this goes in head after meta in HTML).</li>
+          <li>rel: specifies the relationship between this doc and the linked one.</li>
+          <li>href: location of URL or in this case, location in the prework-study-guide/assets/style.css</li> 
+          <li>Selector: defines the element or attributes to which the rules, or decarations, will apply.</li>
+          <li>Declarations: Have two components: {Property: Value;} Example: {color: blue;}</li>
+          <li>CSS box model: has "Content" in center, "Padding" around that, "Border" around that, and "Margin" around that.</li>
+          <li>Margin: the space we want outside of an element.</li>
+          <li>Padding: the the space we want inside of an element.</li>
+          <li>To have same declaration to mutiple selector (ex. header and footer) add a comma between.</li>
+          <li>Here we have the class "card"'s peramiters in the css file, each of the 4 note sections have been given assigned card for class so all will have these peramiters set in place.</li>
+
         </ul>
       </section>
 
       <section class="card" id="git-section">
         <h2>Git</h2>
-        <ul>
-          <li>git status: checks what branch we're in.</li>
-          <li>git checkout main: switch back to main branch.</li>
-          <li>git checkout -b branch-name: creates new branch or switches to it.</li>
-          <li>git add -A: to commit all files in working branch.</li>
-          <li>git commit -m "x": to associate a message with the implemented commit.</li>
-          <li>git pull origin main: to update any changes to main before inserting your branch.</li>
-          <li>git push origin feature/branch-name: to push all the changes in branchg to main.</li>
-        </ul>
-        <h4>Command Terminal commands:</h4>
         <ul>
           <li>ls = list of files.</li>
           <li>cd = change directories (restores default I.e. no directory selected).</li>
@@ -58,6 +59,13 @@
           <li>touch (x) = create file x.</li>
           <li>open (x) = open x.</li>
           <li>code . = open VScode.</li>
+          <li>git status: checks what branch we're in.</li>
+          <li>git checkout main: switch back to main branch.</li>
+          <li>git checkout -b branch-name: creates new branch or switches to it.</li>
+          <li>git add -A: to commit all files in working branch.</li>
+          <li>git commit -m "x": to associate a message with the implemented commit.</li>
+          <li>git pull origin main: to update any changes to main before inserting your branch.</li>
+          <li>git push origin feature/branch-name: to push all the changes in branchg to main.</li>
         </ul>
       </section>
 
