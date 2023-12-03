@@ -2,7 +2,7 @@
 
 ## Description
 
-Here is the intro to my journey to become a software developer. I was able to develope skills learning how to use CSS HTML JS and Git. Knowing some of this base knowledge has helped my confidence and giving me something to look forward to as i continue to grow my knowledge. Being able to use this base is great for me to find a creating outlet that makes sense to me. More to come.
+Here is the intro to my journey to become a software developer. I was able to develope skills learning how to use CSS, HTML, JS, and Git. Knowing some of this base knowledge has helped my confidence and giving me something to look forward to as i continue to grow my knowledge. Being able to use this base is great for me to find a creating outlet that makes sense to me. More to come.
 
 ## Installation
 
